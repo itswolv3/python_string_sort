@@ -1,7 +1,7 @@
 import re
 
 
-def num_string_extract(string):
+def num_string_extract(string) -> int:
     """
     Takes in a string will attempt to extract a number from within
     that string
@@ -16,7 +16,7 @@ def num_string_extract(string):
     return extracted_num
 
 
-def sort_string(__list):
+def sort_string(__list) -> list:
     """
     Takes in an array of string that contains nums
     and sorts the items.
